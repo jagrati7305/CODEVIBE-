@@ -16,8 +16,7 @@ const HtmlLesson4 = () => {
 
   return (
     <div className="lesson">
-      <h1>Lesson 4: HTML Attributes</h1>
-      <div className="lesson">
+      <h1>Lesson 4: Html Attribute</h1>
         <p>
           An attribute is extra information added inside an HTML tag to give more control or settings to that tag.
           It helps define the behaviour, appearance, or properties of HTML elements.
@@ -72,7 +71,7 @@ For example:
         `}</pre>
 
       
-      </div>
+      
 
       <Compiler
         hint="💡 Review the lesson instructions carefully. Make sure your output matches exactly."
