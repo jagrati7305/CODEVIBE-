@@ -33,7 +33,15 @@ const register = async (req, res, next) => {
       success: true,
       message: "User registered successfully",
       token,
-      user: { username, email: Email, college, year },
+      user: {
+        username,
+        email: Email,
+        college,
+        year,
+        bio: "",
+        avatarUrl: "",
+        joinedAt: userCreate.joinedAt,
+      },
     });
   } catch (error) {
     next(error);

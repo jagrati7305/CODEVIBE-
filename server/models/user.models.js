@@ -18,6 +18,18 @@ const userSchema = new Schema({
     type: String,
     required: true,
   },
+  bio: {
+    type: String,
+    default: '',
+  },
+  avatarUrl: {
+    type: String,
+    default: '',
+  },
+  joinedAt: {
+    type: Date,
+    default: Date.now,
+  },
   password: {
     type: String,
     required: true,

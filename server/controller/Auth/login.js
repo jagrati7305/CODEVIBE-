@@ -40,6 +40,9 @@ const login = async (req, res, next) => {
         email: user.Email,
         college: user.college,
         year: user.year,
+        bio: user.bio || "",
+        avatarUrl: user.avatarUrl || "",
+        joinedAt: user.joinedAt || null,
       },
     });
   } catch (error) {
