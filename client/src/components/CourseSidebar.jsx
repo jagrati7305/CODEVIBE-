@@ -14,7 +14,10 @@ const CourseSidebar = ({ coursePrefix, totalLessons, courseTitle }) => {
     if (loggedInUser) {
       const parsedUser = JSON.parse(loggedInUser);
       if (parsedUser.email) {
-        axios.get(`${API_BASE_URL}/api/progress/${parsedUser.email}`)
+        const token = localStorage.getItem('authToken');
+        axios.get(`${API_BASE_URL}/api/progress/${parsedUser.email}`, {
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        })
           .then(res => {
             setProgressData(res.data);
             const completed = (res.data.completedLessons || []).filter(id => id && id.startsWith(coursePrefix)).length;

@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import './config/axiosSetup'; // Global axios auth interceptor – must be before component imports
 import './index.css';
 
 import {

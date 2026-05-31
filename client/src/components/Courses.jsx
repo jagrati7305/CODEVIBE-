@@ -40,8 +40,11 @@ const Courses = () => {
     if (loggedInUser) {
       const parsedUser = JSON.parse(loggedInUser);
       setUser(parsedUser);
-      if (parsedUser.email) {
-        axios.get(`${API_BASE_URL}/api/progress/${parsedUser.email}`)
+      const token = localStorage.getItem('authToken');
+      if (parsedUser.email && token) {
+        axios.get(`${API_BASE_URL}/api/progress/${parsedUser.email}`, {
+          headers: { Authorization: `Bearer ${token}` }
+        })
           .then(res => {
             setCompletedLessons(res.data.completedLessons || []);
             setProgressData(res.data);
