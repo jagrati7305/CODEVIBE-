@@ -59,10 +59,18 @@ const login = async (req, res, next) => {
       message: "Login successful",
       token,
       user: {
+        id: user._id,
         username: user.username,
         email: user.email || user.Email,
         college: user.college,
         year: user.year,
+        bio: user.bio || "",
+        avatarUrl: user.avatarUrl || "",
+        joinedAt:
+          user.joinedAt ||
+          (user._id && typeof user._id.getTimestamp === "function"
+            ? user._id.getTimestamp()
+            : null),
       },
     });
   } catch (error) {

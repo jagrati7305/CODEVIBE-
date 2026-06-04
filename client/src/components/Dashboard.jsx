@@ -649,6 +649,7 @@ const Dashboard = () => {
   const [error, setError] = useState("");
   const [editMode, setEditMode] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [avatarSaving, setAvatarSaving] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
   const [profileForm, setProfileForm] = useState({
     username: user?.username || "",
@@ -727,31 +728,35 @@ const Dashboard = () => {
   };
 
   const persistAvatar = async (avatarUrl) => {
-    if (!token) return;
-    try {
-      const response = await axios.put(
-        `${API_BASE_URL}/api/auth/profile`,
-        { avatarUrl },
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        }
-      );
-
-      if (response.data?.user) {
-        updateUser(response.data.user);
-        setAnalytics((prev) =>
-          prev
-            ? { ...prev, profile: { ...prev.profile, ...response.data.user } }
-            : prev
-        );
-      }
-    } catch (err) {
-      setError(err.response?.data?.message || "Unable to save avatar.");
+    if (!token) {
+      throw new Error("Please log in again to update your avatar.");
     }
+
+    const response = await axios.put(
+      `${API_BASE_URL}/api/auth/profile`,
+      { avatarUrl },
+      {
+        headers: { Authorization: `Bearer ${token}` },
+      }
+    );
+
+    if (!response.data?.user) {
+      throw new Error("Unable to save avatar.");
+    }
+
+    updateUser(response.data.user);
+    setAnalytics((prev) =>
+      prev
+        ? { ...prev, profile: { ...prev.profile, ...response.data.user } }
+        : prev
+    );
+
+    return response.data.user.avatarUrl || avatarUrl;
   };
 
   const handleAvatarUpload = async (event) => {
-    const file = event.target.files?.[0];
+    const input = event.target;
+    const file = input.files?.[0];
     if (!file) return;
 
     const MAX_AVATAR_SIZE_BYTES = 2 * 1024 * 1024;
@@ -760,13 +765,29 @@ const Dashboard = () => {
       return;
     }
 
+    const previousAvatar = profileForm.avatarUrl || user?.avatarUrl || "";
     setError("");
+    setAvatarSaving(true);
     const reader = new FileReader();
     reader.onload = async () => {
-      const result = reader.result;
-      setAvatarPreview(result);
-      setProfileForm((prev) => ({ ...prev, avatarUrl: result }));
-      await persistAvatar(result);
+      try {
+        const result = reader.result;
+        const savedAvatarUrl = await persistAvatar(result);
+        setAvatarPreview(savedAvatarUrl);
+        setProfileForm((prev) => ({ ...prev, avatarUrl: savedAvatarUrl }));
+      } catch (err) {
+        setAvatarPreview(previousAvatar);
+        setProfileForm((prev) => ({ ...prev, avatarUrl: previousAvatar }));
+        setError(err.response?.data?.message || err.message || "Unable to save avatar.");
+      } finally {
+        setAvatarSaving(false);
+        input.value = "";
+      }
+    };
+    reader.onerror = () => {
+      setAvatarSaving(false);
+      setError("Unable to read the selected image.");
+      input.value = "";
     };
     reader.readAsDataURL(file);
   };
@@ -957,6 +978,7 @@ const Dashboard = () => {
                     type="file"
                     accept="image/*"
                     onChange={handleAvatarUpload}
+                    disabled={avatarSaving}
                   />
                 </label>
               </div>

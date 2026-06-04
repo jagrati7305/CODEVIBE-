@@ -27,9 +27,22 @@ const userSchema = new Schema({
     required: true,
     trim: true,
   },
+  bio: {
+    type: String,
+    default: "",
+    trim: true,
+  },
+  avatarUrl: {
+    type: String,
+    default: "",
+  },
   password: {
     type: String,
     required: true,
+  },
+  joinedAt: {
+    type: Date,
+    default: Date.now,
   },
   resetToken: { type: String },       // for password reset token
   resetTokenExpiry: { type: Date },   // for password reset token expiry

@@ -74,7 +74,9 @@ const register = async (req, res, next) => {
         email: userCreate.email,
         college: userCreate.college,
         year: userCreate.year,
-        joinedAt: userCreate.createdAt,
+        bio: userCreate.bio || "",
+        avatarUrl: userCreate.avatarUrl || "",
+        joinedAt: userCreate.joinedAt,
       },
     });
 

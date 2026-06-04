@@ -311,7 +311,7 @@ const getAnalytics = async (req, res) => {
           { Email: email }
         ],
       })
-        .select('username Email college year bio avatarUrl joinedAt')
+        .select('username email Email college year bio avatarUrl joinedAt')
         .lean(),
       Progress.findOne({ email }).select('scores completedLessons').lean(),
       Analytics.find({ email })
@@ -487,7 +487,7 @@ const getAnalytics = async (req, res) => {
 
     const profile = {
       username: user.username,
-      email: user.email,
+      email: user.email || user.Email,
       college: user.college,
       year: user.year,
       bio: user.bio || '',

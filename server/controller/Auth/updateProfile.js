@@ -2,7 +2,7 @@ const UserModel = require('../../models/user.models');
 
 const updateProfile = async (req, res) => {
   try {
-    const tokenEmail = req.user?.email || req.user?.Email;
+    const tokenEmail = (req.user?.email || req.user?.Email || '').trim().toLowerCase();
     if (!tokenEmail) {
       return res.status(401).json({ message: 'Unauthorized' });
     }
@@ -21,7 +21,12 @@ const updateProfile = async (req, res) => {
     }
 
     const user = await UserModel.findOneAndUpdate(
-      { Email: tokenEmail },
+      {
+        $or: [
+          { email: tokenEmail },
+          { Email: tokenEmail },
+        ],
+      },
       { $set: updateFields },
       { new: true }
     );
@@ -33,8 +38,9 @@ const updateProfile = async (req, res) => {
     res.json({
       success: true,
       user: {
+        id: user._id,
         username: user.username,
-        email: user.Email,
+        email: user.email || user.Email,
         college: user.college,
         year: user.year,
         bio: user.bio || '',
