@@ -14,7 +14,7 @@ Last updated: 2026-06-07
 
 | Rank | Contributor | Score | Commits | Merged PRs | Closed Issues |
 | --- | --- | ---: | ---: | ---: | ---: |
-| 1 | [@Pcmhacker-piro](https://github.com/Pcmhacker-piro) | 325 | 0 | 9 | 47 |
+| 1 | [@Pcmhacker-piro](https://github.com/Pcmhacker-piro) | 335 | 0 | 10 | 47 |
 | 2 | [@thedaripanator](https://github.com/thedaripanator) | 150 | 15 | 9 | 6 |
 | 3 | [@sricharan-213](https://github.com/sricharan-213) | 131 | 8 | 7 | 9 |
 | 4 | [@Saubhagya1621](https://github.com/Saubhagya1621) | 128 | 9 | 7 | 8 |
@@ -87,22 +87,22 @@ Last updated: 2026-06-07
 | 71 | [@nandinisri1912](https://github.com/nandinisri1912) | 17 | 1 | 1 | 1 |
 | 72 | [@nishitha011](https://github.com/nishitha011) | 17 | 1 | 1 | 1 |
 | 73 | [@PeyalaAnandanaidu](https://github.com/PeyalaAnandanaidu) | 17 | 1 | 1 | 1 |
-| 74 | [@Sakshisen12](https://github.com/Sakshisen12) | 17 | 1 | 1 | 1 |
-| 75 | [@Shashankpatilrcr](https://github.com/Shashankpatilrcr) | 17 | 1 | 1 | 1 |
-| 76 | [@shiwans-k-yadav](https://github.com/shiwans-k-yadav) | 17 | 1 | 1 | 1 |
-| 77 | [@shubh22-u](https://github.com/shubh22-u) | 17 | 1 | 1 | 1 |
-| 78 | [@suhanimaurya05](https://github.com/suhanimaurya05) | 17 | 1 | 1 | 1 |
-| 79 | [@tejaswibellapu](https://github.com/tejaswibellapu) | 17 | 1 | 1 | 1 |
-| 80 | [@twinkle0tech](https://github.com/twinkle0tech) | 17 | 1 | 1 | 1 |
-| 81 | [@Vaibhav-221](https://github.com/Vaibhav-221) | 17 | 1 | 1 | 1 |
-| 82 | [@Aryan0819](https://github.com/Aryan0819) | 15 | 0 | 0 | 3 |
-| 83 | [@DHRUVI5674](https://github.com/DHRUVI5674) | 15 | 0 | 0 | 3 |
-| 84 | [@dishu305](https://github.com/dishu305) | 15 | 0 | 0 | 3 |
-| 85 | [@grishabhatia](https://github.com/grishabhatia) | 15 | 0 | 0 | 3 |
-| 86 | [@Harshit2722](https://github.com/Harshit2722) | 15 | 0 | 0 | 3 |
-| 87 | [@iharmandeepsingh](https://github.com/iharmandeepsingh) | 15 | 0 | 0 | 3 |
-| 88 | [@ionfwsrijan](https://github.com/ionfwsrijan) | 15 | 0 | 0 | 3 |
-| 89 | [@priyansh13-c](https://github.com/priyansh13-c) | 15 | 0 | 1 | 1 |
+| 74 | [@priyansh13-c](https://github.com/priyansh13-c) | 17 | 1 | 1 | 1 |
+| 75 | [@Sakshisen12](https://github.com/Sakshisen12) | 17 | 1 | 1 | 1 |
+| 76 | [@Shashankpatilrcr](https://github.com/Shashankpatilrcr) | 17 | 1 | 1 | 1 |
+| 77 | [@shiwans-k-yadav](https://github.com/shiwans-k-yadav) | 17 | 1 | 1 | 1 |
+| 78 | [@shubh22-u](https://github.com/shubh22-u) | 17 | 1 | 1 | 1 |
+| 79 | [@suhanimaurya05](https://github.com/suhanimaurya05) | 17 | 1 | 1 | 1 |
+| 80 | [@tejaswibellapu](https://github.com/tejaswibellapu) | 17 | 1 | 1 | 1 |
+| 81 | [@twinkle0tech](https://github.com/twinkle0tech) | 17 | 1 | 1 | 1 |
+| 82 | [@Vaibhav-221](https://github.com/Vaibhav-221) | 17 | 1 | 1 | 1 |
+| 83 | [@Aryan0819](https://github.com/Aryan0819) | 15 | 0 | 0 | 3 |
+| 84 | [@DHRUVI5674](https://github.com/DHRUVI5674) | 15 | 0 | 0 | 3 |
+| 85 | [@dishu305](https://github.com/dishu305) | 15 | 0 | 0 | 3 |
+| 86 | [@grishabhatia](https://github.com/grishabhatia) | 15 | 0 | 0 | 3 |
+| 87 | [@Harshit2722](https://github.com/Harshit2722) | 15 | 0 | 0 | 3 |
+| 88 | [@iharmandeepsingh](https://github.com/iharmandeepsingh) | 15 | 0 | 0 | 3 |
+| 89 | [@ionfwsrijan](https://github.com/ionfwsrijan) | 15 | 0 | 0 | 3 |
 | 90 | [@Ridima28](https://github.com/Ridima28) | 15 | 0 | 1 | 1 |
 | 91 | [@bhavyaxtech](https://github.com/bhavyaxtech) | 12 | 1 | 1 | 0 |
 | 92 | [@MD-Mushfiqur123](https://github.com/MD-Mushfiqur123) | 12 | 1 | 1 | 0 |
