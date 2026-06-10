@@ -318,18 +318,27 @@ useEffect(() => {
 
               Home
             </NavLink>
-            <NavLink
-              to="/lessons"
-              state={{ scrollToFaq: true }}
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              onClick={() => setMenuOpen(false)}
-              
-            >
-              <FaQuestionCircle className="nav-icon" />
-              FAQ
-            </NavLink>
+           <NavLink
+  to="/lessons"
+  className={({ isActive }) =>
+    isActive ? "nav-link active" : "nav-link"
+  }
+  onClick={() => {
+    setMenuOpen(false);
+
+    setTimeout(() => {
+      document
+        .querySelector(".faq-section")
+        ?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+    }, 100);
+  }}
+>
+  <FaQuestionCircle className="nav-icon" />
+  FAQ
+</NavLink>
             <NavLink
               to="/lessons"
               className={({ isActive }) =>
@@ -418,16 +427,24 @@ useEffect(() => {
         className={`mobile-nav ${menuOpen ? "mobile-nav--open" : ""}`}
         aria-label="Mobile navigation"
       >
-        <Link
-          to="/lessons"
-          className="nav-link"
-          onClick={() => {
-            setMenuOpen(false);
-            navigate('/lessons', { state: { scrollToFaq: true } });
-          }}
-        >
-          <span>FAQ</span>
-        </Link>
+<Link
+  to="/lessons"
+  className="nav-link"
+  onClick={() => {
+    setMenuOpen(false);
+
+    setTimeout(() => {
+      document
+        .querySelector(".faq-section")
+        ?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+    }, 100);
+  }}
+>
+  <span>FAQ</span>
+</Link>
         <button
           type="button"
           className="nav-link"
