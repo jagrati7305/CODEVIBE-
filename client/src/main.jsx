@@ -226,6 +226,8 @@ import GlobalBackNav from "./components/common/GlobalBackNav.jsx";
 import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import { SearchProvider } from "./context/SearchContext.jsx";
 import  Contact  from "./components/Contact.jsx";
+import LessonLayout from "./components/LessonLayout.jsx";
+import BookmarksPage from "./components/BookmarksPage.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -246,6 +248,7 @@ createRoot(document.getElementById('root')).render(
               <Route path="/ForgetPassword" element={<ForgetPassword />} />
               <Route path="/ResetPassword" element={<ResetPassword />} />
               <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
+              <Route path="/bookmarks" element={<PrivateRoute><BookmarksPage /></PrivateRoute>} />
               <Route path="/leaderboard" element={<Leaderboard />} />
               <Route path="/flashcards" element={<Flashcard />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
@@ -260,7 +263,7 @@ createRoot(document.getElementById('root')).render(
               <Route path="/contact" element={<Contact />} />
 
               {/* HTML Lessons */}
-              <Route element={<PrivateRoute />}>
+              <Route element={<LessonLayout />}>
                 <Route path="/HtmlLesson" element={<HtmlLesson />} />
                 <Route path="/HtmlLesson1" element={<HtmlLesson1 />} />
                 <Route path="/HtmlLesson2" element={<HtmlLesson2 />} />
