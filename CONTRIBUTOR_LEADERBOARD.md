@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `jagrati7305/CODEVIBE-` by GitHub Actions.
 
-Last updated: 2026-06-16
+Last updated: 2026-06-17
 
 ## Scoring
 
@@ -35,7 +35,7 @@ Last updated: 2026-06-16
 | 19 | [@advikdivekar](https://github.com/advikdivekar) | 10 | 5 | 0 | 0 |
 | 20 | [@anujsharma8d](https://github.com/anujsharma8d) | 10 | 5 | 0 | 0 |
 | 21 | [@ArshiBansal](https://github.com/ArshiBansal) | 10 | 5 | 0 | 0 |
-| 22 | [@divyagsharma2006-blip](https://github.com/divyagsharma2006-blip) | 10 | 5 | 0 | 0 |
+| 22 | [@divyaa404](https://github.com/divyaa404) | 10 | 5 | 0 | 0 |
 | 23 | [@Swetha-Varma-K](https://github.com/Swetha-Varma-K) | 10 | 5 | 0 | 0 |
 | 24 | [@vasheekhan](https://github.com/vasheekhan) | 10 | 5 | 0 | 0 |
 | 25 | [@YASHcode-IIITV](https://github.com/YASHcode-IIITV) | 10 | 5 | 0 | 0 |
