@@ -2,7 +2,7 @@
 
 This leaderboard is generated automatically for `jagrati7305/CODEVIBE-` by GitHub Actions.
 
-Last updated: 2026-06-18
+Last updated: 2026-06-19
 
 ## Scoring
 
@@ -79,25 +79,24 @@ Last updated: 2026-06-18
 | 63 | [@itssagarK](https://github.com/itssagarK) | 2 | 1 | 0 | 0 |
 | 64 | [@JANHAVI40](https://github.com/JANHAVI40) | 2 | 1 | 0 | 0 |
 | 65 | [@Kartikey-Pathak](https://github.com/Kartikey-Pathak) | 2 | 1 | 0 | 0 |
-| 66 | [@KGFCH2](https://github.com/KGFCH2) | 2 | 1 | 0 | 0 |
-| 67 | [@manassanjaymishra24](https://github.com/manassanjaymishra24) | 2 | 1 | 0 | 0 |
-| 68 | [@MD-Mushfiqur123](https://github.com/MD-Mushfiqur123) | 2 | 1 | 0 | 0 |
-| 69 | [@Mudita-Singh](https://github.com/Mudita-Singh) | 2 | 1 | 0 | 0 |
-| 70 | [@nandinisri1912](https://github.com/nandinisri1912) | 2 | 1 | 0 | 0 |
-| 71 | [@NarraMounika](https://github.com/NarraMounika) | 2 | 1 | 0 | 0 |
-| 72 | [@nishitha011](https://github.com/nishitha011) | 2 | 1 | 0 | 0 |
-| 73 | [@PadmakarBagade](https://github.com/PadmakarBagade) | 2 | 1 | 0 | 0 |
-| 74 | [@PeyalaAnandanaidu](https://github.com/PeyalaAnandanaidu) | 2 | 1 | 0 | 0 |
-| 75 | [@pracheyyy](https://github.com/pracheyyy) | 2 | 1 | 0 | 0 |
-| 76 | [@PradeepTech-hub](https://github.com/PradeepTech-hub) | 2 | 1 | 0 | 0 |
-| 77 | [@priyansh13-c](https://github.com/priyansh13-c) | 2 | 1 | 0 | 0 |
-| 78 | [@ravishankar-03](https://github.com/ravishankar-03) | 2 | 1 | 0 | 0 |
-| 79 | [@reshukushwah28](https://github.com/reshukushwah28) | 2 | 1 | 0 | 0 |
-| 80 | [@Sakshisen12](https://github.com/Sakshisen12) | 2 | 1 | 0 | 0 |
-| 81 | [@Shashankpatilrcr](https://github.com/Shashankpatilrcr) | 2 | 1 | 0 | 0 |
-| 82 | [@shiwans-k-yadav](https://github.com/shiwans-k-yadav) | 2 | 1 | 0 | 0 |
-| 83 | [@shubh22-u](https://github.com/shubh22-u) | 2 | 1 | 0 | 0 |
-| 84 | [@suhanimaurya05](https://github.com/suhanimaurya05) | 2 | 1 | 0 | 0 |
-| 85 | [@tejaswibellapu](https://github.com/tejaswibellapu) | 2 | 1 | 0 | 0 |
-| 86 | [@twinkle0tech](https://github.com/twinkle0tech) | 2 | 1 | 0 | 0 |
-| 87 | [@Yogender-verma](https://github.com/Yogender-verma) | 2 | 1 | 0 | 0 |
+| 66 | [@manassanjaymishra24](https://github.com/manassanjaymishra24) | 2 | 1 | 0 | 0 |
+| 67 | [@MD-Mushfiqur123](https://github.com/MD-Mushfiqur123) | 2 | 1 | 0 | 0 |
+| 68 | [@Mudita-Singh](https://github.com/Mudita-Singh) | 2 | 1 | 0 | 0 |
+| 69 | [@nandinisri1912](https://github.com/nandinisri1912) | 2 | 1 | 0 | 0 |
+| 70 | [@NarraMounika](https://github.com/NarraMounika) | 2 | 1 | 0 | 0 |
+| 71 | [@nishitha011](https://github.com/nishitha011) | 2 | 1 | 0 | 0 |
+| 72 | [@PadmakarBagade](https://github.com/PadmakarBagade) | 2 | 1 | 0 | 0 |
+| 73 | [@PeyalaAnandanaidu](https://github.com/PeyalaAnandanaidu) | 2 | 1 | 0 | 0 |
+| 74 | [@pracheyyy](https://github.com/pracheyyy) | 2 | 1 | 0 | 0 |
+| 75 | [@PradeepTech-hub](https://github.com/PradeepTech-hub) | 2 | 1 | 0 | 0 |
+| 76 | [@priyansh13-c](https://github.com/priyansh13-c) | 2 | 1 | 0 | 0 |
+| 77 | [@ravishankar-03](https://github.com/ravishankar-03) | 2 | 1 | 0 | 0 |
+| 78 | [@reshukushwah28](https://github.com/reshukushwah28) | 2 | 1 | 0 | 0 |
+| 79 | [@Sakshisen12](https://github.com/Sakshisen12) | 2 | 1 | 0 | 0 |
+| 80 | [@Shashankpatilrcr](https://github.com/Shashankpatilrcr) | 2 | 1 | 0 | 0 |
+| 81 | [@shiwans-k-yadav](https://github.com/shiwans-k-yadav) | 2 | 1 | 0 | 0 |
+| 82 | [@shubh22-u](https://github.com/shubh22-u) | 2 | 1 | 0 | 0 |
+| 83 | [@suhanimaurya05](https://github.com/suhanimaurya05) | 2 | 1 | 0 | 0 |
+| 84 | [@tejaswibellapu](https://github.com/tejaswibellapu) | 2 | 1 | 0 | 0 |
+| 85 | [@twinkle0tech](https://github.com/twinkle0tech) | 2 | 1 | 0 | 0 |
+| 86 | [@Yogender-verma](https://github.com/Yogender-verma) | 2 | 1 | 0 | 0 |
